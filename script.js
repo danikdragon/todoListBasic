@@ -80,6 +80,7 @@ function saveText(textId) {//сохраняем текст если он был 
 // не рабочий сигмент кода, по непонятным мне причинам в будущем исправить
 // function tumbler(idOpen){
 //   let tumble = document.getElementById(idOpen).getElementsByClassName(`classopen`)
+//   if (tumble.style.display =='flex') {
 //     tumble.style.display ='none'
 //     alert('worked if')
 //   }else{
