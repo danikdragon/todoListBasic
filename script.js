@@ -77,14 +77,14 @@ function saveText(textId) {//сохраняем текст если он был 
   savedTexts[textId] = newText;//сохраняем новый текс 
   localStorage.setItem('adderPlanTexts', JSON.stringify(savedTexts));// заносим все в localStorage
 }
-function tumbler(idOpen){
-  let tumble = document.getElementById(idOpen).getElementsByClassName(`classopen`)
-  if (tumble.style.display =='flex') {
-    tumble.style.display ='none'
-    alert('worked if')
-  }else{
-    alert('worked else')
-    tumble.style.display = 'none'
-  }
-  alert('workedlast')
-}
+// не рабочий сигмент кода, по непонятным мне причинам в будущем исправить
+// function tumbler(idOpen){
+//   let tumble = document.getElementById(idOpen).getElementsByClassName(`classopen`)
+//     tumble.style.display ='none'
+//     alert('worked if')
+//   }else{
+//     alert('worked else')
+//     tumble.style.display = 'none'
+//   }
+//   alert('workedlast')
+// }
