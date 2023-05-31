@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header id="header_id">
+       <div class="button" id="Clear_all_plan" onclick="clear_plan()">Очистить весь лист</div>
+    </header>
+
+    <div class="discription">
+        это древовидный todo list в котором вы сможете записывать свои планы на день и добавлять к ним
+        подпункты, этот сайт позволит вам четко следовать цели и помечать уже выполненые задачи(не древовидный)
+    </div>
+
+    <div class="main_conten" id="div_content">
+        <div>Впишите пункт который хотите добавить</div>
+        <form method="post" action="" class="main_form">
+            <input class="area_for_text" id="for_text" placeholder="Напишите свой пункт здесь">
+            <div class="button" id="create" onclick="adderPlan();">создать</div>
+        </form>
+        <div id="div_content_two">
+
+        </div>
+    </div>
+    <footer id="footer_id">
+        <div class="button" id="button2">данная версия написанна на js + localstorage, без медия</div>
+        <div class="button" id="button3">версия 1.1</div>
+    </footer>
+</body>
+</html>

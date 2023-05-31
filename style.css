@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: #000000da;
+    padding: 0.5%;
+}
+
+.button{
+    transition: 300ms;
+    margin: 1%;   
+}
+
+.button#create{
+    border: #72aa4d;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.button_collection{
+    display: grid;
+    grid-template-columns: 100px 200px 100px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button_plan{    
+    transition: 300ms;
+    margin: 1%;   
+    margin: 1%;   
+    border: #72aa4d;
+    border-style:solid;
+    border-radius: 40px;
+    padding: 1%;
+}
+
+.button_plan:hover{
+    cursor: pointer;
+    color: rgb(0, 180, 0);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: rgb(0, 180, 0);
+}
+
+.discription{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-block: 5%;
+    margin-inline: 15%;
+    font-size: 16pt;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    border: #72aa4d;
+    border-style:solid;
+    border-radius: 50px;
+}
+
+.area_for_text{
+    margin: 1%;
+    color: #72aa4d;
+    background-color: #ffffff0a;
+    width: 100%;
+}
+
+.main_conten{
+    margin-block: 5%;
+    margin-inline: 15%;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    border: #72aa4d;
+    border-style:solid;
+    border-radius: 50px;
+}
+
+.main_form{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-block: 5%;
+    margin-inline: 15%;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.conten_plan{
+    padding: 2%;
+    margin-block: 5%;
+    margin-inline: 15%;
+    font-size: 14pt;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    border: #72aa4d;
+    border-style:solid;
+    overflow-x:hidden; 
+    border-radius: 50px;
+}
+.text_plan_dls{
+    margin: 5%;
+    overflow-x:hidden; 
+    font-size: 11pt;
+}
+
+body{
+    background-image: url(bg.jpg);
+    backdrop-filter: blur(4px);
+    background-size: cover;
+    color: #f1f1f1;
+    margin: 0%;
+    width: 100%;
+    text-shadow: 3px 1px 4px rgb(0, 0, 0);
+}
+
+footer{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: #000000da;    
+    padding: 0.5%;
+    margin-top: 7.5%;
+}
+
+/*фон полосы прокрутки*/
+::-webkit-scrollbar{
+    background: #303030;   
+ }
+/*цвет прокрутки полосы скроллбара */
+::-webkit-scrollbar-thumb{
+    background: #1d1d1d;
+}
